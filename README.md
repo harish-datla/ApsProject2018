@@ -2,6 +2,7 @@
         The code has both cpp files and python files. Cpp files are for functionality of respective trees while python files are for graph plotting. After the executables of respective cpp files have been formed, you need to follow the following procedure.
 
         Run the .exe file of test_case_generator , this will create two text files one is random_seq.txt which has random numbers and sorted_seq which has sorted numbers.
+        test_case_generator takes a lot of time as i creates randomly , have some patience
 
         Once the text files have been created you can proceed to test the code by the following commands.
 
@@ -20,6 +21,8 @@
     ./rbtree random_seq.txt
 
     ./rbtree sorted_seq.txt
+    
+    randomized_bst takes lot of time as the no of operations is very high (~10^10)
 
         From this you will have some .csv files generated which will help us in plotting graphs. To do the following you need to have the following installed in your system.
 
